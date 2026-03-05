@@ -7,10 +7,10 @@ def fetch_feedback():
     try:
         # Hostinger MySQL connection details
         connection = mysql.connector.connect(
-            host='localhost', # Usually 'localhost' on Hostinger [5]
-            database='u123456789_dbname',
-            user='u123456789_dbuser',
-            password='your_secure_password'
+            host='srv1330845.hstgr.cloud', # Usually 'localhost' on Hostinger [5]
+            database='u600400625_kingfish',
+            user='u600400625_mcurtis',
+            password='1Fhfr0lpYFtOs9W5'
         )
 
         if connection.is_connected():
